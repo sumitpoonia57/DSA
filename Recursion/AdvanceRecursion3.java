@@ -1,4 +1,4 @@
-// wwrite program to put 1*m tiles in floor of sizde n*m;
+// write program to put 1*m tiles in floor of sizde n*m;
 public class AdvanceRecursion3 {
     public static int CountTiles(int n,int m){
         // Base Condition
