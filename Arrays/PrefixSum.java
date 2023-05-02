@@ -22,17 +22,13 @@ public class PrefixSum {
                 else{
                     sum=prefix[j]-prefix[i-1];
                 }
-                
                     if (sum > max) {
                         max = sum;
-                    }
-                    if (sum < min) {
-                        min = sum;
                     }
                 }
             }
         System.out.println("Maximum Sum:" + max);
-        System.out.println("Minimum Sum:" + min);
+       
     }
     public static void main(String[] args) {
         int num[] = { 2, 4, 6, 8, 10, 12 };
