@@ -34,7 +34,6 @@ public class PrefixSum {
         System.out.println("Maximum Sum:" + max);
         System.out.println("Minimum Sum:" + min);
     }
-
     public static void main(String[] args) {
         int num[] = { 2, 4, 6, 8, 10, 12 };
         subArrays(num);
