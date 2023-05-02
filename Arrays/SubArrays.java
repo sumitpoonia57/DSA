@@ -4,11 +4,12 @@ import java.util.*;
 public class SubArrays {
     public static void subArrays(int num[]){
 
-        int sum=0;
+       
         int max=Integer.MIN_VALUE;
         int min=Integer.MAX_VALUE;
         for(int i=0;i<num.length;i++){
             for(int j=i+1;j<num.length;j++){
+                int sum=0;
                 System.out.print("");
                 for(int k=i;k<j;k++){
                     int remain=num[k];
