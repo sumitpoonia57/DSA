@@ -15,6 +15,7 @@ public class Kadane {
             if (sum > max) {
                 max = sum;
             }
+            // Math.max function is also use to  find maximum value 
         }
     System.out.println("Maximum Sum:" + max);
     }
