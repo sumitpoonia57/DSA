@@ -18,7 +18,6 @@ public class BuySellStock2 {
     public static void main(String[] args) {
         int num[] = { 5, 2, 7, 3, 6, 1, 2, 4 };
         System.out.print(buyStock(num));
-
     }
 
 }
