@@ -7,32 +7,19 @@ public class BuySellStock {
     public static int Stocks(int prices[]) {
         int buyStock = Integer.MAX_VALUE;
         // int sellStock=0;
-        int profit = 0;
-        int maxProfit = 0;
-        for (int i : prices) {
-            if (buyStock < i) {
-                profit = i - buyStock;
-                maxProfit = Math.max(maxProfit, profit);
-            } else {
-                buyStock = i;
+        int profit=0;
+        int maxProfit=0;
+        for(int i=0;i<prices.length;i++){
+            if(buyStock<prices[i]){
+                profit=prices[i]-buyStock;
+                maxProfit=Math.max(maxProfit, profit);
             }
-
-            // sellStock=prices[i];
-            // if(buyStock<prices[i]){
-            // buyStock=prices[i];
-            // }
-            // if(sellStock>buyStock){
-            // int MaxProfit=sellStock-buyStock;
-            // if(MaxProfit>profit){
-            // profit=MaxProfit;
-            // }
-            // }
-            // else{
-            // buyStock=sellStock;
-            // }
-
+            else{
+                buyStock=prices[i];
+            }
         }
         return maxProfit;
+
     }
 
     public static void main(String[] args) {
