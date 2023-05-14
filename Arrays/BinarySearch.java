@@ -1,6 +1,7 @@
 package Arrays;
 import java.util.*;
 // Find the index of key  using binary search approach is present in array or not
+// Binary Search is always applicable on sorted array
 
 public class BinarySearch {
     public static int Binary(int arr[],int key){
