@@ -1,6 +1,5 @@
 package Arrays;
 
-
 public class MajorityElement {
     public static int Majority(int num[]){
         int count=1;
