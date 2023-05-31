@@ -1,5 +1,6 @@
 package Hashing;
 // write a program to return size of array after performing intersection of two array
+// TimeComplexity is may be O(N2);
 import java.util.*;
 
 public class Intersection {
