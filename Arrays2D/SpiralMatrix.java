@@ -8,23 +8,24 @@ public class SpiralMatrix {
         int endCol=matrix[0].length-1;
         while(startRow<=endRow && startCol<=endCol){
             // top
-            for(int j=startCol;j<endCol;j++){
+            for(int j=startCol;j<=endCol;j++){
                 System.out.print(matrix[startRow][j]+" ");
             }
             // right
-            for(int i=startRow;i<endRow;i++){
+            for(int i=startRow+1;i<=endRow;i++){
                 System.out.print(matrix[i][endCol]+" ");
             }
             // down
-            for(int j=endCol;j>startCol;j--){
+            for(int j=endCol-1;j>=startCol;j--){
                 if(startRow==endRow){
                     break;
                 }
                 System.out.print(matrix[endRow][j]+" ");
             }
             // left
-            for(int i=endRow;i>startRow;i--){
+            for(int i=endRow-1;i>=startRow+1;i--){
                 if(startCol==endCol){
+                    break;
 
                 }
                 System.out.print(matrix[i][startCol]+" ");
