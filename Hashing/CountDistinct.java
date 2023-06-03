@@ -2,10 +2,10 @@ package Hashing;
 import java.util.*;
 
 class CountDistinct{
+    // count distinct elements in window of size K
 static int windows(int arr[], int num,int k)
 {
     int count = 0;
-    // traversing one window
 
     for (int i = num; i <num+k; i++) {
        
@@ -21,7 +21,7 @@ static int windows(int arr[], int num,int k)
     }
     return count;
 }
-// calculating total number of windows
+//  Traverse through every window
 static void countDistinct(int arr[], int n, int k)
 {
     for (int i = 0; i <= n - k; i++){
