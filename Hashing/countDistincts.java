@@ -20,6 +20,7 @@ public class countDistincts {
             }
             map.put(num[i],map.getOrDefault(num[i],0)+1);
             System.out.println(map.size());  
+            System.out.println(map);
         }   
     }
     public static void main(String[] args) {
