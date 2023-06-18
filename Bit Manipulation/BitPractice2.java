@@ -35,8 +35,8 @@ public class BitPractice2 {
     }
 
     public static void main(String[] args) {
-        int arr[] = { 12, 12, 2, 2, 3 };
-        int k = 2;
+        int arr[] = {6, 2, 5, 2, 2, 6, 6 };
+        int k = 3;
         System.out.println(Unique(arr, k));
 
     }
