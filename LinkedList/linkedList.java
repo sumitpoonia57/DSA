@@ -41,9 +41,10 @@ public class linkedList {
             tail.next=newNode;
             tail=newNode;
         }
-        public void print(){
+        public void print(){ // TimeComplexity is O(n)
             // create tempNode
             Node temp=head;
+            // always remeber head of linked list doesnot change only the temp variable can change.
             // Base Case:- when linkedlist is empty
             if(head==null){
                 System.out.println("LL is emppty");
