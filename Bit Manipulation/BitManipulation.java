@@ -5,6 +5,7 @@ public class BitManipulation {
         // Calculate xor of sum with all elements of array it will return sum=3^2
         for (int i = 0; i < n; i++) {
             sum = sum ^ arr[i];
+            System.out.println(sum);
         }
         // Calculating right most significant bit of sum so that array can divide into
         // two condition
