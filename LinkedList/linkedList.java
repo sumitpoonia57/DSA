@@ -65,7 +65,7 @@ public class linkedList {
             } 
             // temp m previous node store ho jayege i=idx-1
             newNode.next=temp.next;
-            temp=newNode;
+            temp.next=newNode;
 
         }
     public static void main(String[] args) {
