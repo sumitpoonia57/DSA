@@ -55,16 +55,31 @@ public class linkedList {
             }
             System.out.println("null");
         }
+        public void add(int indx,int data){
+            Node newNode=new Node(data);
+            Node temp=head;
+            int i=0;
+            while(i<indx-1){
+                temp=temp.next;
+                i++;
+            } 
+            // temp m previous node store ho jayege i=idx-1
+            newNode.next=temp.next;
+            temp=newNode;
+
+        }
     public static void main(String[] args) {
         linkedList ll=new linkedList();
-        ll.print();
+        //ll.print();
         ll.addFirst(1);
-        ll.print();
+        //ll.print();
         ll.addFirst(2);
-        ll.print();
+        //ll.print();
         ll.addLast(3);
-        ll.print();
+        //ll.print();
         ll.addLast(5);
+        //ll.print();
+        ll.add(3,9);
         ll.print();
 
 
