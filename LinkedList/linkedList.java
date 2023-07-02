@@ -202,6 +202,36 @@ public class linkedList {
             }
             return slow;// middle Node
         }
+        public boolean Palindrome(){
+            if(head==null && head.next==null){
+                return true;
+            }
+            // step 1 find middle node
+            Node mid=findMid(head);
+             // reverse half ll
+             Node prev=null;
+             Node curr=mid;
+             Node next;
+             while(curr!=null){
+                next=curr.next;
+                curr.next=prev;
+                prev=curr;
+                curr=next;
+             }
+             // step 3 check data from left to right of ll is equal or Not
+             Node left=head; // head of left part of ll
+             Node right=prev;// head of right part of ll 
+             while(right!=null){
+                if(left.data!=right.data){
+                    return false;
+                }
+                left=left.next;
+                right=right.next;
+             }
+             return true;
+
+
+        }
     public static void main(String[] args) {
         linkedList ll=new linkedList();
         //ll.print();
@@ -225,6 +255,7 @@ public class linkedList {
        ll.print();
       ll.deleteN(1);
       ll.print();
+      System.out.print(ll.Palindrome());
 
        
 
