@@ -192,6 +192,16 @@ public class linkedList {
             }
             prev.next=prev.next.next;
         }
+        // slow-fast approach
+        public Node findMid(Node head){
+            Node slow=head;
+            Node fast=head;
+            while(fast!=null && fast.next!=null){
+                slow=slow.next; //+1
+                fast=fast.next.next; //+2
+            }
+            return slow;// middle Node
+        }
     public static void main(String[] args) {
         linkedList ll=new linkedList();
         //ll.print();
