@@ -50,7 +50,7 @@ public class linkedList {
             // always remeber head of linked list doesnot change only the temp variable can change.
             // Base Case:- when linkedlist is empty
             if(head==null){
-                System.out.println("LL is emppty");
+                System.out.println("LL is empty");
             }
             while(temp!=null){
                 System.out.print(temp.data+"->");
