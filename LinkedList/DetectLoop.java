@@ -79,7 +79,7 @@ class LinkedList {
     }
 
 public class DetectLoop extends LinkedList{
-    public  static boolean detectCycle(){
+    public  static boolean detectCycle(){ // Floyd
         Node slow=head;
         Node fast=head;
         while(fast!=null && fast.next!=null){
