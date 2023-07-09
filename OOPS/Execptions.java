@@ -1,5 +1,5 @@
 package OOPS;
-//oops
+//oops PACKAGE
 import java.util.*;
 class MyException extends Exception{
     @Override
