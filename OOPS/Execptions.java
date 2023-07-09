@@ -1,3 +1,4 @@
+package OOPS;
 import java.util.*;
 class MyException extends Exception{
     @Override
