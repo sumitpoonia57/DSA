@@ -1,5 +1,5 @@
 package OOPS;
-// Polymorphism method Dynam
+// Polymorphism method Dynamic Dispa
 import java.util.*;
 // Implementation of Dynamic Method Dispatch
 class Phone{
