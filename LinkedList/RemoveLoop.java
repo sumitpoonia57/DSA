@@ -1,6 +1,6 @@
 package LinkedList;
 
-public class RemoveLoop extends linkedList{
+public class RemoveLoop extends LinkedList{
     public  static boolean detectCycle(){ // Floyd
         Node slow=head;
         Node fast=head;
@@ -46,8 +46,7 @@ public class RemoveLoop extends linkedList{
          Node temp=new Node(2);
           head.next=temp;
          head.next.next=new Node(3);
-         head.next.next.next=new Node(4);
-        head.next.next.next.next=temp;
+        head.next.next.next=temp;
         System.out.println(detectCycle());
          removeLoop();
          System.out.println(detectCycle());   
