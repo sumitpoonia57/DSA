@@ -1,6 +1,6 @@
 package OOPS;
 import java.util.*;
-// Default M
+// Default Method
 // JavaInterface Example and Default Method
 interface Camera{
     void takeSnap();
