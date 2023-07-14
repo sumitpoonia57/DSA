@@ -1,7 +1,7 @@
 package LinkedList;
 import java.util.*;
 
-public class linkedList {
+public class LinkedList {
     public static class Node{
         int data;
         Node next;
@@ -193,7 +193,7 @@ public class linkedList {
             prev.next=prev.next.next;
         }
         // slow-fast approach
-        public Node findMid(Node head){
+        public static  Node findMid(Node head){
             Node slow=head;
             Node fast=head;
             while(fast!=null && fast.next!=null){
@@ -233,7 +233,7 @@ public class linkedList {
 
         }
     public static void main(String[] args) {
-        linkedList ll=new linkedList();
+        LinkedList ll=new LinkedList();
         //ll.print();
         ll.addFirst(1);
         //ll.print();
@@ -255,6 +255,7 @@ public class linkedList {
        ll.print();
       ll.deleteN(1);
       ll.print();
+      System.out.print(findMid(head));
       System.out.print(ll.Palindrome());
 
        
