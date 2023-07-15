@@ -24,8 +24,5 @@ public class BottomStack {
         stack.push(3);
         System.out.println(Arrays.asList(stack));
         Bottom(stack,4);
-        
-        
     }
-    
 }
