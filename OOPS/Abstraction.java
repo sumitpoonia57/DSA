@@ -1,6 +1,6 @@
 package OOPS;
 import java.util.*;
-// Abstraction class
+// abstraction class
 abstract class Animal{
     abstract void walk();
 }
