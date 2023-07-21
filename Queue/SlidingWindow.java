@@ -1,6 +1,6 @@
 package Queue;
 import java.util.*;
-// Sliding window brute force approach
+// sliding window brute force approach
 public class SlidingWindow {
     public static void sliding(int arr[],int k){
         int n=arr.length;
