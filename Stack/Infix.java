@@ -48,7 +48,7 @@ public class Infix {
 
     }
     public static void main(String[] args) {
-        String str="m*n+(p-q)+r";
+        String str="3+2*2";
         System.out.print(infix(str));
         
     }

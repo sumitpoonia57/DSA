@@ -41,7 +41,7 @@ public class postfix {
           return s.pop();
     }
     public static void main(String[] args) {
-        String str="100 200 + 2 / 5 * 7 +";
+        String str="";
         System.out.println(PostFix(str));
     }  
 }
