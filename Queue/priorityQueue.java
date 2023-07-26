@@ -1,6 +1,6 @@
 package Queue;
 import java.util.*;
-// 
+// Prirority
 // write a program to connect N Ropes with minimum cost
 public class priorityQueue {
     public static void minCost(int a[]){
