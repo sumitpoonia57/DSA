@@ -1,6 +1,6 @@
 package Queue;
 import java.util.*;
-
+//
 public class Interleave {
     public static void Interleave(Queue<Integer>q){
         Queue<Integer> first=new LinkedList<>();
