@@ -1,6 +1,6 @@
 
 import java.util.*;
-//
+//BinaryTree
 public class BinaryTreeB {
     static class Node{
         int data;
