@@ -9,7 +9,7 @@ public class PalindromeString {
         System.out.println(name.equals(palindrome));
     }
     public static void main(String[] args) {
-        //
+        // Input
         String name="racecar";
          palindrome(name); 
         
