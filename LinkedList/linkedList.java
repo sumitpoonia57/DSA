@@ -257,11 +257,7 @@ public class LinkedList {
       ll.print();
       System.out.print(findMid(head));
       System.out.print(ll.Palindrome());
-
-       
-
-
-        
+      
     }
     
 }
