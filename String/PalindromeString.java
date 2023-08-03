@@ -1,5 +1,5 @@
 public class PalindromeString {
-    // PalindromeStrng
+    // PalindromeString
     public static void palindrome(String name){
         String palindrome="";
         for(int i=name.length()-1;i>=0;i--){
