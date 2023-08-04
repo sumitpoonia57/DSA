@@ -1,5 +1,5 @@
 // Palindrome Of Number
-// Brute
+// Brute Force
 public class Palindrome {
     public static void Number(int n) {
         int rev = 0;
