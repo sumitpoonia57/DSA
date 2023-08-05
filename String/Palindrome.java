@@ -1,4 +1,4 @@
-// Palindrome
+// Palindrome Of
 public class Palindrome {
     public static void Number(int n) {
         int rev = 0;
