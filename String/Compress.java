@@ -1,6 +1,6 @@
 import java.util.*;
 public class Compress {
-    // write a program to perfrom string compression
+    // write a program to perfrom string Compression
     // aaabbbcc -> a3b3c2
     public static String Compression(String str){
         String newString="";
