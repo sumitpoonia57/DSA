@@ -1,5 +1,6 @@
 package Queue;
 import java.util.*;
+// implement queue using 2 stacks
 
 public class QueueS {
     public static class Queue{
