@@ -4,8 +4,8 @@ import java.util.*;
 
 public class QueueS {
     public static class Queue{
-         static Stack<Integer> s1=new Stack<>();
-        static Stack<Integer> s2=new Stack<>();
+         static StackQ<Integer> s1=new StackQ<>();
+        static StackQ<Integer> s2=new StackQ<>();
         // check if queue is empty or not
         public static boolean isEmpty(){
             return s1.isEmpty();
