@@ -12,7 +12,7 @@
             }
             else{
                 if(s.isEmpty()){
-                    return false; // This is for special case where all are closing character
+                    return false; // This is for special case where all are Closing character
                 }
                 // check pairs
                 if((s.peek()=='(' && ch==')') || (s.peek()=='[' && ch==']') || (s.peek()=='{' && ch=='}' )){
