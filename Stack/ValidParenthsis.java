@@ -6,7 +6,7 @@
         Stack<Character> s=new Stack<>();
         for(int i=0;i<str.length();i++){
             char ch=str.charAt(i);
-            // Check for opening case
+            // Check for Opening case
             if(ch=='(' || ch=='{'|| ch=='['){
                 s.push(ch);
             }
