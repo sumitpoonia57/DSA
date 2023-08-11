@@ -16,7 +16,7 @@ public class SlidingWindowD {
             }
             dq.addLast(i);
         }
-        System.out.println(i);
+       
         // now for remaining element
         for(;i<n;i++){
             // print maximum element of previous window
