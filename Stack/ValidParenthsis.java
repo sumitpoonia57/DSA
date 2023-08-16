@@ -1,6 +1,7 @@
  package Stack;
  import java.util.*;
  public class ValidParenthsis{
+    //
     public static boolean validParenthsis(String str){
         Stack<Character> s=new Stack<>();
         for(int i=0;i<str.length();i++){
