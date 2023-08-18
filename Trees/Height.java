@@ -33,6 +33,27 @@ public class Height {
             int selfdiameter=lh+rh+1;
             return Math.max(selfdiameter,Math.max(leftdiameter,rightdiameter));
         }
+        static class Info{
+            int diam;
+            int height;
+            public Info( int diam, int height){
+                this.diam=diam;
+                this.height=height;
+            }
+        }
+        public static Info Diameter(Node root){
+            if(root==null){
+                return new Info(0,0);
+            }
+            Info leftInfo=Diameter(root.left);
+            Info rightInfo=Diameter(root.right);
+            int diam=Math.max(Math.max(leftInfo.diam,rightInfo.diam),leftInfo.height+rightInfo.height+1);
+            int height=Math.max(leftInfo.height,rightInfo.height)+1;
+            return new Info(diam,height);
+
+
+
+        }
     
     public static void main(String[] args) {
         Node root=new Node(1);
@@ -46,6 +67,7 @@ public class Height {
         int diameter=diameter(root);
         System.out.println(ans);
         System.out.println(diameter);
+        System.out.println(Diameter(root).diam);
 
         
     }
