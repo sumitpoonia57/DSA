@@ -1,6 +1,6 @@
 package Stack;
 import java.util.*;
-//
+// Stock
 public class StockSpan {
     public  static void stockSpan(int stock[],int span[]){
         Stack<Integer> s=new Stack<>();
