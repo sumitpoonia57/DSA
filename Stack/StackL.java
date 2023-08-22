@@ -1,5 +1,5 @@
 package Stack;
-// implementation of stack using linked list
+// Implementation of stack using linked list
 public class StackL {
     static class Node{
         int data;
