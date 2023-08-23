@@ -1,11 +1,10 @@
 package Queue;
 import java.util.*;
 // implement queue using 2 stacks
-
 public class QueueS {
     public static class Queue{
-         static StackQ<Integer> s1=new StackQ<>();
-        static StackQ<Integer> s2=new StackQ<>();
+      static Stack<Integer> s1=new LinkedList<>();
+        static Stack<Integer> s2=new LinkedList<>();
         // check if queue is empty or not
         public static boolean isEmpty(){
             return s1.isEmpty();
