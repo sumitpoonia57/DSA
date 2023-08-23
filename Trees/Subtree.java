@@ -1,4 +1,4 @@
-package Trees;
+
 import java.util.*;
 // write a program to check if subtree is equal to tree subtree or not
 

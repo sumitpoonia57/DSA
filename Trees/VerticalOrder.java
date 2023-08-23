@@ -20,7 +20,7 @@ public class VerticalOrder {
     }
     // VerticalOrder of tree
     public static ArrayList<Integer> verticalOrder(Node root){
-        ArrayList<Integer> list=new ArrayList<>();
+
         Queue<pair> q=new LinkedList<>();
         q.add(new pair(root,0));
         HashMap<Integer,ArrayList<Integer>> map=new HashMap<>();
