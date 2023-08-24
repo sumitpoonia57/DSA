@@ -41,6 +41,31 @@ public class LCA {
         Node ans=path1.get(i-1);
         return ans;
     }
+    public static int lcadist(Node root,int n){
+        if(root==null){
+            return -1;
+        }
+        if(root.data==n){
+            return 0;
+
+        }
+        int left=lcadist(root.left, n);
+        int right=lcadist(root.right, n);
+        if(left== -1 && right==-1){
+            return -1;
+        }else if(right==-1){
+            return left+1;
+        }else{
+            return right+1;
+        }
+    }
+    public static int minDist(Node root,int n1,int n2){
+        Node low=lca(root, n1, n2);
+        int dist1=lcadist(low,n1);
+        int dist2=lcadist(low,n2);
+        return dist1+dist2;
+
+    }
     public static void main(String[] args) {
         Node root=new Node(1);
         root.left=new Node(2);
@@ -48,7 +73,7 @@ public class LCA {
         root.left.left=new Node(4);
         root.left.right=new Node(5);
         root.right.right=new Node(6);
-        System.out.println(lca(root, 4, 5).data);
+        System.out.println(minDist(root, 4, 6));
         
     }
     
