@@ -66,6 +66,7 @@ public class LCA {
         return dist1+dist2;
 
     }
+    
     public static void main(String[] args) {
         Node root=new Node(1);
         root.left=new Node(2);
