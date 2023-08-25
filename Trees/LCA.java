@@ -84,6 +84,26 @@ public class LCA {
         }
         return max;
     }
+    public static int transform(Node root){
+        if(root==null){
+            return 0;
+        }
+        int left=transform(root.left);
+        int right=transform(root.left);
+        int data=root.data;
+        int newleft=root.left==null?0:root.left.data;
+        int newright=root.right==null?0:root.right.data;
+        root.data=newleft+left+newright+right+newright;
+        return data;
+    }
+    public static void preorder(Node root){
+        if(root==null){
+            return;
+        }
+        System.out.print(root.data+" ");
+        preorder(root.left);
+        preorder(root.right);
+    }
 
     public static void main(String[] args) {
         Node root=new Node(1);
@@ -94,6 +114,8 @@ public class LCA {
         root.right.right=new Node(6);
         System.out.println(minDist(root, 4, 6));
       kAncestor(root, 4, 2);
+      transform(root);
+      preorder(root);
         
     }
     
