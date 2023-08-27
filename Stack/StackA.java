@@ -1,5 +1,5 @@
 package Stack;
-// Implementation Of Stack Data structure using arraylist
+// Implementation Of Stack Data structure using Arraylist
 import java.util.ArrayList;
 
 public class StackA {
