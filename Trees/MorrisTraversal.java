@@ -42,8 +42,7 @@ public class MorrisTraversal {
         root.left.left=new Node(4);
         root.left.right=new Node(5);
         root.right.right=new Node(6);
-        System.out.println(morris(root));
-        
+        System.out.println(morris(root));  
     }
     
 }
