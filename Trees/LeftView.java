@@ -19,10 +19,8 @@ public class LeftView {
         if ( level >= list.size()) { // it is best way to remove error of out of bound exception
             list.add(root);
         }
-        
         leftViewutil(root.left, list, level+1);
         leftViewutil(root.right, list, level+1);
-
     }
     public static void leftView(Node root){
         ArrayList<Node> list=new ArrayList<>();
@@ -30,8 +28,6 @@ public class LeftView {
         for(Node curr:list){
             System.out.println(curr.data);
         }
-
-
     }
     public static void main(String[] args) {
         Node root=new Node(1);
