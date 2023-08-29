@@ -106,16 +106,20 @@ public class LCA {
     }
 
     public static void main(String[] args) {
-        Node root=new Node(1);
-        root.left=new Node(2);
-        root.right=new Node(3);
-        root.left.left=new Node(4);
-        root.left.right=new Node(5);
+        Node root=new Node(3);
+        root.left=new Node(5);
+        root.right=new Node(1);
+        root.right.left=new Node(0);
+        root.right.right=new Node(8);
+        root.left.left=new Node(6);
+        root.left.right=new Node(2);
+        root.left.right.left=new Node(7);
+        root.left.right.right=new Node(4);
         root.right.right=new Node(6);
         System.out.println(minDist(root, 4, 6));
-      kAncestor(root, 4, 2);
-      transform(root);
-      preorder(root);
+         kAncestor(root, 1, 2);
+         transform(root);
+          preorder(root);
         
     }
 }
