@@ -34,6 +34,20 @@ public class Build {
         inorder(root.right);
 
     }
+    public static boolean Search(Node root,int val){
+        if(root==null){
+            return false;
+        }
+        if(root.data==val){
+            return true;
+        }
+        if(root.data>val){
+             return Search(root.left, val);
+        }
+        else{
+             return Search(root.right, val);
+        }
+    }
 
     public static void main(String[] args) {
         int values[]={5,1,3,4,2,7};
@@ -42,6 +56,7 @@ public class Build {
             root=insert(root,values[i]);
         }
         inorder(root);
+        System.out.println(Search(root, 1));
     }
     
 }
