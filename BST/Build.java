@@ -97,6 +97,21 @@ public class Build {
         }
         return root;
     }
+    public static void leafPaths(Node root,ArrayList<Integer> path){
+        if(root==null){
+            return;
+        }
+        path.add(root.data);
+        if(root.left==null && root.right==null){
+            for(int i=0;i<path.size();i++){
+                System.out.print(path.get(i)+" ");
+            }
+            System.out.println();
+        }
+        leafPaths(root.left, path);
+        leafPaths(root.right, path);
+        path.remove(path.size()-1);
+    }
 
     public static void main(String[] args) {
         int values[]={8,5,3,6,1,4,10,11,14};
@@ -108,7 +123,9 @@ public class Build {
         System.out.println(Search(root, 1));
        // Delete(root, 1);
        // inorder(root);
-        printInRange(root, 5, 12);
+        //printInRange(root, 5, 12);
+        ArrayList<Integer> path=new ArrayList<>();
+        leafPaths(root,path);
     }
     
 }
