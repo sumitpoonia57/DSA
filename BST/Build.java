@@ -99,7 +99,7 @@ public class Build {
     }
 
     public static void main(String[] args) {
-        int values[]={5,1,3,4,2,6,7};
+        int values[]={8,5,3,6,1,4,10,11,14};
         Node root=null;
         for(int i=0;i<values.length;i++){
             root=insert(root,values[i]);
@@ -108,7 +108,7 @@ public class Build {
         System.out.println(Search(root, 1));
        // Delete(root, 1);
        // inorder(root);
-        printInRange(root, 5, 7);
+        printInRange(root, 5, 12);
     }
     
 }
