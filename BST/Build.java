@@ -1,6 +1,8 @@
 // Build a Binary Search Tree
 package BST;
 import java.util.*;
+
+import Stack.reverseStack;
 public class Build {
    static  class Node{
         int data;
@@ -124,6 +126,16 @@ public class Build {
         }
         return isValidBST(root.left, min, root) && isValidBST(root.right,root, max);
     }
+    public static Node mirror(Node root){
+        if(root==null){
+            return root;
+        }
+        Node left=mirror(root.left);
+        Node right=mirror(root.right);
+        root.left=right;
+        root.right=left;
+        return root;
+    }
 
     public static void main(String[] args) {
         int values[]={8,5,3,6,1,4,10,11,14};
@@ -138,7 +150,9 @@ public class Build {
         //printInRange(root, 5, 12);
         ArrayList<Integer> path=new ArrayList<>();
         leafPaths(root,path);
-       System.out.println(isValidBST(root, null, null)); 
+       System.out.println(isValidBST(root, null, null));
+       mirror(root);
+       inorder(root); 
     }
     
 }
