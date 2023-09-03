@@ -1,6 +1,6 @@
-// Build a Binary Search Tree
 package BST;
 import java.util.*;
+// Build a Binary Search Tree
 
 public class Build {
    static  class Node{
