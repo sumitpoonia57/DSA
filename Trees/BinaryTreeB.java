@@ -20,7 +20,7 @@ public class BinaryTreeB {
                 return null;
             }
             Node newNode=new Node(nodes[indx]);
-            //System.out.println(newNode.data); it is very important to check how values are print how this function is working 
+              //System.out.println(newNode.data); it is very important to check how values are print how this function is working 
             // both condition are important to iterate each value of array
             newNode.left=buildTree(nodes);
              newNode.right=buildTree(nodes);
