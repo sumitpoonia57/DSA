@@ -1,6 +1,6 @@
 package Stack;
 import java.util.*;
-//
+//Reverse
 public class reverseString {
     public static String toReverse(String str){
       Stack<Character> s=new Stack<>();
