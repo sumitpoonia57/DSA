@@ -21,7 +21,6 @@ public class BalancedBST {
         root.left=balanceBST(arr, si, mid-1);
         root.right=balanceBST(arr, mid+1, end);
         return root;
-
     }
     public static void preorder(Node root){
         if(root==null){
