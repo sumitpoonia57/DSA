@@ -1,6 +1,6 @@
 package Stack;
 import java.util.*;
-//Rev
+//Reve
 public class reverseStack {
         public static void bottomAtStack(Stack<Integer> stack,int data){
             // base condition
