@@ -1,6 +1,6 @@
 package Stack;
 import java.util.*;
-// write a program to evaluate postfix 
+// write a program to evaluate Postfix 
 public class postfix {
     public static int PostFix(String str){
         Stack<Integer> s=new Stack<>();
