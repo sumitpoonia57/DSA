@@ -7,6 +7,7 @@ public class Irecursion2 {
         }
         char currchar=str.charAt(0);
          String nextString=Reverse(str.substring(1));
+         System.out.println(nextString);
         return nextString+currchar;
     }
     public static void main(String[] args) {
