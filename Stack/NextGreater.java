@@ -1,6 +1,6 @@
 package Stack;
 import java.util.*;
-// find next greater element of array in new array
+// find Next greater element of array in new array
 public class NextGreater {
     public static void main(String[] args) {
         Stack<Integer> s=new Stack<>();
