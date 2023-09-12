@@ -20,7 +20,7 @@ public class MaxArea {
             }
             s.push(i);
         }
-        // calculate next smalest from left
+        // Caalculate next smalest from left
          s=new Stack<>(); // it will empty the stack
         for(int i=0;i<arr.length;i++){
             while(!s.isEmpty() && arr[s.peek()]>=arr[i]){
