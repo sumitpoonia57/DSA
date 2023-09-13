@@ -7,7 +7,7 @@ public class MaxArea {
         int nsl[]=new int[arr.length];
         int nsr[]=new int[arr.length];
         Stack<Integer> s=new Stack<>();
-        // calculate next smallest from right
+        // calculate next Smallest from right
         for(int i=arr.length-1;i>=0;i--){
             while(!s.isEmpty() && arr[s.peek()]>=arr[i]){
                 s.pop();
