@@ -2,7 +2,7 @@ package Stack;
 import java.util.*;
 
 public class MaxArea {
-    // write a program to calculate max area of histogram
+    // write a program to calculate Max area of histogram
     public static void maxArea(int arr[]){
         int nsl[]=new int[arr.length];
         int nsr[]=new int[arr.length];
