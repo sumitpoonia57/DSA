@@ -1,5 +1,5 @@
 package Stack;
-// write a prograam to convert Infix to postfix expression
+// write a prograam to convert Infix to Postfix expression
 import java.util.*;
 
 public class Infix {
