@@ -1,6 +1,6 @@
 package Stack;
 import java.util.*;
-//DuplicateParenthsis
+//DuplicateParenthsis problem
 public class DuplicateParenthsis {
     public static boolean duplicate(String str){
         Stack<Character> s=new Stack<>();
