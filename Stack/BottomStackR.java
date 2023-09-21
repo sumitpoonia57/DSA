@@ -1,5 +1,5 @@
 package Stack;
-// Bottom Stack using recursion without using extra space
+// bottom Stack using recursion without using extra space
 import java.util.*;
 public class BottomStackR {
     public static void bottomAtStack(Stack<Integer> stack,int data){
