@@ -3,7 +3,7 @@ package Stack;
 import java.util.*;
 public class BottomStackR {
     public static void bottomAtStack(Stack<Integer> stack,int data){
-        // base condition
+        // base condition to solve
         if(stack.isEmpty()){
             stack.push(data);
             return;
