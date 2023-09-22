@@ -1,6 +1,6 @@
 package Stack;
 import java.util.*;
-// write a program to push element at bottom of stack
+// write a program to push element at Bottom of stack
 
 public class BottomStack {
     public static void Bottom(Stack<Integer> stack,Integer data){
