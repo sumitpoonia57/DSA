@@ -1,6 +1,6 @@
 package Sorting;
 // write a program to sort array using merge sort
-//MergeSort using Recurs
+//MergeSort using Recursi
 import java.util.*;
 
 public class MergeSort {
