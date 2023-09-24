@@ -35,7 +35,6 @@ public static void ReverseChar( char[] characters){
         }
     }
 }
-
     public static void main(String[] args) {
         String str="Today is Sunday";
 
