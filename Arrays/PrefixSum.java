@@ -13,6 +13,7 @@ public class PrefixSum {
         for(int i=1;i<num.length;i++){
             prefix[i]=prefix[i-1]+num[i];
         }
+        System.out.print(Arrays.toString(prefix));
         for (int i = 0; i < num.length; i++) {
             for (int j = i + 1; j < num.length; j++) {
                 int sum = 0;

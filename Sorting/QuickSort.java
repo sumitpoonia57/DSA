@@ -29,8 +29,6 @@ public class QuickSort {
         arr[ei]=arr[i];
         arr[i]=temp;
         return i;
-
-
     }
     public static void main(String[] args) {
         int arr[]={2,4,6,12,4,9,10};
