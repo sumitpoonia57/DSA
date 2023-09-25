@@ -1,5 +1,5 @@
 package Sorting;
-// write a program to do sorting udding seletion sort
+// write a program to do sorting using Seletion sort
 import java.util.*;
 
 public class SelectionSort {
