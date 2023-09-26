@@ -1,7 +1,7 @@
 package Searching;
 // write a program to sort element from infinte sorted array
 
-
+// InfintieSorting
 public class InfiniteSorting {
     public static int Range(int num[],int key,int low,int high)
     {
