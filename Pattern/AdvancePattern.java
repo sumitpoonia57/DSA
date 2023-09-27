@@ -2,7 +2,7 @@ public class AdvancePattern {
     public static void main(String[] args) {
     // Butte rfly patterns
         int n = 5;
-        // Upper Part
+        // UpperPart
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
