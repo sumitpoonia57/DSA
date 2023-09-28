@@ -1,5 +1,5 @@
 package Sorting;
-// write a program to sort rotated Array
+// write a program to sort rotatedArray
 
 public class RotatedArray {
     public static int Search(int num[],int target,int si,int end){
