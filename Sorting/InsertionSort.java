@@ -1,6 +1,6 @@
 package Sorting;
 import java.util.*;
-
+// InsertionSort
 public class InsertionSort {
     public static int[] Insertion(int num[]){
         int n=num.length;
