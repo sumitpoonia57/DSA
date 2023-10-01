@@ -35,7 +35,7 @@ public class object {
         s1.age=21;
         Student s2=new Student(s1);
         s2.printInfo();
-        
+      
     }
     
 }

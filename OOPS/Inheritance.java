@@ -26,6 +26,8 @@ class EquilateralTriangle extends Triangle{
 
 public class Inheritance {
     public static void main(String[] args) {
+        Circle c=new Circle();
+        c.area(4);
         
     }
     
