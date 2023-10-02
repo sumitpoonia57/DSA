@@ -17,7 +17,7 @@ interface Wifi{
         System.out.println("Calling....");
     }
 } 
- class SmartPhone extends MyPhone implements Camera,Wifi{
+ class MySmartPhone extends MyPhone implements Camera,Wifi{
     public void takeSnap(){
         System.out.println("Take SnapShot");
     }
@@ -34,7 +34,7 @@ interface Wifi{
 }
 public class DefaultsMethod {
     public static void main(String[] args) {
-        SmartPhone s=new SmartPhone();
+        MySmartPhone s=new MySmartPhone();
         String ans[]=s.getNetwork();
         System.out.println(Arrays.toString(ans));
         
