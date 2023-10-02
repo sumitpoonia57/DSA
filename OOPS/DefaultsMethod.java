@@ -8,6 +8,9 @@ interface Camera{
 interface Wifi{
     String[] getNetwork();
     void connectToNetwork(); 
+    default void recordMovie(){
+        System.out.println("Record");
+    }
 }
  class MyPhone{
     void callPhoneNumber(int number){
@@ -36,6 +39,7 @@ public class DefaultsMethod {
     public static void main(String[] args) {
         MySmartPhone s=new MySmartPhone();
         String ans[]=s.getNetwork();
+        s.recordMovie();
         System.out.println(Arrays.toString(ans));
         
     }
