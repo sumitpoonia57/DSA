@@ -12,8 +12,10 @@ class Chicken extends Animal{
     public void walk(){
         System.out.println("Walk on 2 legs");
     }
-}
+    public void run(){
 
+    }
+}
 
 public class Abstraction {
     public static void main(String[] args) {
