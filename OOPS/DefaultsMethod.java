@@ -8,7 +8,8 @@ interface Camera{
 interface Wifi{
     String[] getNetwork();
     void connectToNetwork(); 
-    default void recordMovie(){
+    default void recordMovie(){   // Deaults methods are use in interface when you does not want to break the functionalites of class and youwant to add an
+        // any function to your program it can done using default key word and create method
         System.out.println("Record");
     }
 }
