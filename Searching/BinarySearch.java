@@ -1,6 +1,6 @@
 package Searching;
 import java.util.*;
-// write a program to find element using binary search in sorted array
+// writea program to find element using binary search in sorted array
 public class BinarySearch {
     public static int Sort(int arr[],int key,int si,int ei){
         // kaam
