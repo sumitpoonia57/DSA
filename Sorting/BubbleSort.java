@@ -1,6 +1,6 @@
 package Sorting;
 
-//write a program to sort array using bubblesort
+//write a program to sorts array using bubblesort
 import java.util.*;
 
 public class BubbleSort {
