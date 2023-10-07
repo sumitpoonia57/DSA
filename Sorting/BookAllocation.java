@@ -1,5 +1,5 @@
 package Sorting;
-// write a program for book allocation
+//write a program for book allocation
 import java.util.*;
 
 public class BookAllocation {
