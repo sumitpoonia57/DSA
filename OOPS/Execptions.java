@@ -11,10 +11,12 @@ class MyException extends Exception{
 }
 public class Execptions {
     public static void main(String[] args) {
-        int a=9;
+        int a;
+        Scanner sc=new Scanner(System.in);
+        a=sc.nextInt();
         if(a<9){
             try{
-                throw new ArithmeticException();
+                throw new ArithmeticException("This is Exception");
 
             }
             catch(Exception e){
