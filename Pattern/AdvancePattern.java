@@ -1,6 +1,6 @@
 public class AdvancePattern {
     public static void main(String[] args) {
-    // Butterfly pattern
+    // Butterfly pattern s
         int n = 5;
         // Upper Part
         for (int i = 1; i <= n; i++) {
