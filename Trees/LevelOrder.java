@@ -36,7 +36,6 @@ public class LevelOrder {
             ans.add(list);
         }
         return ans;
-        
     }
 
     public static void main(String[] args) {
