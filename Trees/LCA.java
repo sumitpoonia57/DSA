@@ -104,6 +104,21 @@ public class LCA {
         preorder(root.left);
         preorder(root.right);
     }
+    // Optimized Technique to calcculate lca of binary tree
+    public static Node LCA(Node root,int n1,int n2){
+        if(root==null || root.data==n1 || root.data==n2){
+            return root;
+        }
+        Node left=LCA(root.left, n1, n2);
+        Node right=LCA(root.right,n1,n2);
+        if(left==null){
+            return right;
+        }
+        if(right==null){
+            return left;
+        }
+        return root;
+    }
 
     public static void main(String[] args) {
         Node root=new Node(3);
@@ -117,9 +132,11 @@ public class LCA {
         root.left.right.right=new Node(4);
         root.right.right=new Node(6);
         System.out.println(minDist(root, 4, 6));
-         kAncestor(root, 1, 2);
-         transform(root);
-          preorder(root);
+        // kAncestor(root, 1, 2);
+         //transform(root);
+          //preorder(root);
+          Node ans=lca(root, 4, 7);
+          System.out.println("OptimzedLCA"+ans.data);
         
     }
 }
