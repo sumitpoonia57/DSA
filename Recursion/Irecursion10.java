@@ -18,6 +18,7 @@ public class Irecursion10 {
     public static void main(String[] args) {
         // Phone Keypad Combination
         String str = "23";
+        System.out.println(str.length()+"str");
         Combination(str, 0, " ");
 
     }

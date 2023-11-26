@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Irecursion10",
+      "request": "launch",
+      "mainClass": "Irecursion10",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
       "name": "LCA",
       "request": "launch",
       "mainClass": "LCA",
