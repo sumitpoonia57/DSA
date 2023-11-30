@@ -1,8 +1,6 @@
 package Hashing;
-
 import java.util.HashMap;
 // GFG Question
-
 public class Solution {
     public static int lenOfLongSubarr (int A[], int N, int K) {
         //Complete the function
@@ -26,7 +24,6 @@ public class Solution {
                 }
             }
 
-            
         //System.out.println(maxlen)
             map.put(currsum,i);
         }
@@ -40,6 +37,5 @@ public class Solution {
         int K=15;
         System.out.println(lenOfLongSubarr(A, N, K));
 
-    }
-    
+    }  
 }

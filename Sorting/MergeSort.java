@@ -52,7 +52,6 @@ public class MergeSort {
         // copying of temp array element in original array
         for(  k=0,i=si;k<temp.length;k++,i++){
             num[i]=temp[k];
-
         }
 
     }

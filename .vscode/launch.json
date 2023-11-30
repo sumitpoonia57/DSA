@@ -3,6 +3,76 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LinkedList",
+      "request": "launch",
+      "mainClass": "Practice.LinkedList",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Upper",
+      "request": "launch",
+      "mainClass": "Upper",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "CountDistinct",
+      "request": "launch",
+      "mainClass": "Hashing.CountDistinct",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "InsertionSort",
+      "request": "launch",
+      "mainClass": "Sorting.InsertionSort",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "BuySellStock2",
+      "request": "launch",
+      "mainClass": "Arrays.BuySellStock2",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "BuySellStock",
+      "request": "launch",
+      "mainClass": "Arrays.BuySellStock",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "SubArrays",
+      "request": "launch",
+      "mainClass": "Arrays.SubArrays",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Pairs",
+      "request": "launch",
+      "mainClass": "Arrays.Pairs",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "AdvanceRecursion5",
+      "request": "launch",
+      "mainClass": "AdvanceRecursion5",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "AdvanceRecursion4",
+      "request": "launch",
+      "mainClass": "AdvanceRecursion4",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
       "name": "Irecursion10",
       "request": "launch",
       "mainClass": "Irecursion10",
