@@ -1,7 +1,4 @@
 package Practice;
-import java.util.*;
-
-import Arrays.leftRight;
 public class LinkedList {
     static class Node{
         int data;
