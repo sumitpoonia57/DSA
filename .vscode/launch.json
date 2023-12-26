@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Fibonacci",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.Fibonacci",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
       "name": "RemoveLoop",
       "request": "launch",
       "mainClass": "LinkedList.RemoveLoop",
