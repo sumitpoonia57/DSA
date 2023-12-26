@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ClimbingStairs",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.ClimbingStairs",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
       "name": "Fibonacci",
       "request": "launch",
       "mainClass": "DynamicProgramming.Fibonacci",
