@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "RemoveLoop",
+      "request": "launch",
+      "mainClass": "LinkedList.RemoveLoop",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
       "name": "LinkedList",
       "request": "launch",
       "mainClass": "Practice.LinkedList",

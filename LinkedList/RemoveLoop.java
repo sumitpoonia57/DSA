@@ -32,7 +32,7 @@ public class RemoveLoop extends LinkedList{
         }
         // find meeting point 
         slow=head;
-        Node prev=null;
+        Node prev=fast;
         while(slow==fast){
             prev=fast;
             slow=slow.next;
