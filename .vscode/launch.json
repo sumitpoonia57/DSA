@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "KnapSack",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.KnapSack",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
       "name": "ClimbingStairs",
       "request": "launch",
       "mainClass": "DynamicProgramming.ClimbingStairs",
