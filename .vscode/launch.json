@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LargestArray",
+      "request": "launch",
+      "mainClass": "Hashing.LargestArray",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
       "name": "KnapSack",
       "request": "launch",
       "mainClass": "DynamicProgramming.KnapSack",

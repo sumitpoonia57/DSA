@@ -29,7 +29,7 @@ public class LargestArray {
         
     }
     public static void main(String[] args) {
-        int num[]={1,0,0,1,0,1,1};
+        int num[]={0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0 ,0 ,0 ,0 ,1, 0, 1 ,1, 0, 0, 0, 1, 1, 1 ,1, 0, 0 ,0, 1, 1, 1, 0, 1, 0 ,1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1 ,0 ,1, 0, 0, 1, 0, 1, 0, 0, 0, 0};
        int m= CountSubArray(num);
        System.out.println(m);    
     }
