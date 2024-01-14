@@ -35,6 +35,31 @@ public class KnapSack {
           return dp[n][W];
         }
     }
+    // Tabulation of 0-1 KnapSack
+    public static int tab(int wt[],int val[],int W,int dp[][],int n){
+        //int dp[val.length+1][]
+        // Base Case
+        for(int i=0;i<dp.length;i++){
+            dp[i][0]=0;
+        }
+        for(int i=0;i<dp[0].length;i++){
+            dp[0][i]=0;
+        }
+        for(int i=1;i<n+1;i++){
+            for(int j=1;j<W+1;j++){
+                // Case 1
+                if(wt[i-1]<=j){
+                    int ans=val[i-1]+dp[i-1][j-wt[i-1]];
+                    int ans1=dp[i-1][j];
+                    dp[i][j]=Math.max(ans,ans1);
+                }else{
+                // Case 2
+                dp[i][j]=dp[i-1][j];
+                }
+            }
+        }
+        return dp[n][W];
+    }
 public static void main(String[] args) {
     int values[]={15,14,10,45,30};
     int wt[]={2,5,1,3,4};
@@ -45,7 +70,7 @@ public static void main(String[] args) {
     for(int arr[]:dp){
         Arrays.fill(arr,-1);
     }
-    System.out.println(dpKnap(wt, values, n, W, dp));
+    System.out.println(tab(wt, values, W, dp,n));
 
 }
 }
