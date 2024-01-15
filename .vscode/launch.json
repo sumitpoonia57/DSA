@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "lcs",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.lcs",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "RodCutting",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.RodCutting",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
       "name": "LargestArray",
       "request": "launch",
       "mainClass": "Hashing.LargestArray",
