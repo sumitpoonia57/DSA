@@ -20,7 +20,7 @@ public class Irecursion9 {
 
     public static void main(String[] args) {
         // Print Unique subsequences of string
-        String str = "aaa";
+        String str = "1119";
         HashSet<String> hashSet = new HashSet();
         Subsequences(str, 0, "", hashSet);
 

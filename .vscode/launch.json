@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Irecursion9",
+      "request": "launch",
+      "mainClass": "Irecursion9",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "AdvanceRecursion1",
+      "request": "launch",
+      "mainClass": "AdvanceRecursion1",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
       "name": "lcs",
       "request": "launch",
       "mainClass": "DynamicProgramming.lcs",

@@ -70,6 +70,7 @@ public static void main(String[] args) {
     for(int arr[]:dp){
         Arrays.fill(arr,-1);
     }
+    System.out.println(dpKnap(wt, values, n, W, dp));
     System.out.println(tab(wt, values, W, dp,n));
 
 }

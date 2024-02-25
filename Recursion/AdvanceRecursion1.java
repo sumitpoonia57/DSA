@@ -16,7 +16,7 @@ public class AdvanceRecursion1 {
     }
 
     public static void main(String[] args) {
-        String str = "abc";
+        String str = "1119";
         printPerm(str, "");
 
     }
