@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TargetSum",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.TargetSum",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
       "name": "Irecursion9",
       "request": "launch",
       "mainClass": "Irecursion9",
